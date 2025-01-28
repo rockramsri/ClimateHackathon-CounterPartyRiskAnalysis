@@ -1,6 +1,4 @@
-THE HOSTED URL : https://comfy-taffy-76c8e5.netlify.app
-
-# NetZero: Comprehensive Counterparty Risk Analysis Platform
+# NetZero: Comprehensive Counterparty Risk Analysis Platform (https://comfy-taffy-76c8e5.netlify.app)
 
 ## Inspiration
 
@@ -60,3 +58,56 @@ The platform evaluates counterparty risk comprehensively by leveraging advanced 
 ---
 
 ## Project Structure
+
+Climate Hackathon/
+│
+├── API/
+│   ├── pycache/
+│   ├── BackendServerTest.py
+│   ├── BackendServe.py
+│   ├── CreditData.py
+│   ├── Rating_with_history.csv
+│   ├── Rating_without_history.csv
+│
+├── CreditData/
+│   ├── Analysis.ipynb
+│   ├── CreditData.py
+│   ├── LLMAnalysis.ipynb
+│   ├── Rating_with_history.csv
+│   ├── Rating_without_history.csv
+│   ├── corporate_rating.csv
+│
+├── Legal issues/
+│   ├── LegalAnalysis.ipynb
+│
+├── SocialMedia/
+│   ├── SocialMedia.ipynb
+│   ├── SentimentScore.py
+│
+├── Presentation.pptx
+
+---
+
+## How to Run
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/NetZero.git
+   cd NetZero
+
+	2.	Set Up Dependencies
+	•	Install the required Python packages:
+
+pip install -r requirements.txt
+
+
+	3.	Run the Backend
+	•	Navigate to the API directory and start the FastAPI server:
+
+python BackendServe.py
+
+
+	4.	Analyze Data
+	•	Explore the Jupyter Notebooks in the CreditData, SocialMedia, or Legal Issues folders for specific analyses.
+	5.	Present Results
+	•	Use the Presentation.pptx file to showcase the insights and project outcomes.
